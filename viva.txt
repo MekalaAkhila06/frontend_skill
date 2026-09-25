@@ -1,0 +1,77 @@
+Viva questions:
+
+1. Steps to create branches in GIT Repository and merge the files of branches to Main branch?
+
+2. Difference between PUSH and PULL commands in GIT?
+
+3. What is the use of CHECKOUT, COMMIT commands in GIT?
+
+4. Differences between HTML and CSS?
+
+5. Explain IF statement with example in JavaScript?
+
+
+
+ANSWERS
+
+1)steps to create branches in GIT Repository and merge the files of branches to Main branch are as follows : -
+
+Git branch branch1
+
+Git checkout branch1
+
+Git checkout -b branch1
+
+Git add .
+
+Git commit -m “Added Changes”
+
+Git checkout main
+
+Git merge branch1
+
+Git push origin main
+
+
+
+
+2)
+
+PUSH: Git push is used to upload the changes or commits from the local repository to the remote repository like GitHub.
+
+PULL: Git pull is used to download the latest changes from the remote repository and update the local repository.
+
+3)
+
+CHECKOUT used to switch between branches or restore files.
+
+Use git checkout branch1
+
+COMMIT used to save staged changes into the local Git repository with a message.
+
+Use git commit -m "Added factorial program"
+
+
+
+
+4)
+
+HTML: hyper text markup language is used for creating structure of a webpage used for defining elements like heading , paragraphs , buttons etc and provides structure of a web page .
+
+CSS: Cascading style sheets are used for styling the webpage defines colors, prompts, styling a layout this provide the design and appearance .
+
+
+
+5)
+
+let age = 20;
+
+if (age >= 18) { //if condition
+
+console.log ("You are eligible to vote."); // printing statement
+
+} else { // else statement
+
+Console.log (“You are not eligible to vote”);
+
+}
